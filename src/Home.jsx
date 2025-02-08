@@ -9,7 +9,7 @@ const Home = () => {
     <div className="home-container">
       <h1>Book Library</h1>
 
-      {/* ✅ Correct: Link to AddBook Page Instead of Rendering It */}
+      {/* Add Book Button */}
       <Link to="/add-book">
         <button className="add-book-button">Add Book</button>
       </Link>
